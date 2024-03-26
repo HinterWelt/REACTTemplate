@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} height="220vmin" className="navbar-brand" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. This is a test!
         </p>
         <a
           className="App-link"
